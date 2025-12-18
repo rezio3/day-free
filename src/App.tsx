@@ -52,7 +52,13 @@ function App() {
   };
 
   if (loading) {
-    return <div className="container">Ładowanie...</div>;
+    return (
+      <div className="loading-container">
+        <div className="spinner"></div>
+        <h2>Czekaj chwilę...</h2>
+        <p>Baza śpi, daj jej jakieś 30 sec 😴</p>
+      </div>
+    );
   }
 
   if (error) {
