@@ -54,8 +54,9 @@ function Voucher3({ element }: VoucherProps) {
     >
       <h1>Talon</h1>
       <h3>Gratulacje! ❤️</h3>
-      <span>Możesz dzisiaj nic nie robić :*</span>
-      <p style={{ fontSize: 10 }}>Element ID: {element._id}</p>
+      <span style={{ marginBottom: 10 }}>Możesz dzisiaj nic nie robić :*</span>
+      <span>Kubuś ogarnia cały dzień</span>
+      <p style={{ fontSize: 10, marginTop: 30 }}>Element ID: {element._id}</p>
     </div>
   );
 }
